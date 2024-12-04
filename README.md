@@ -1,13 +1,12 @@
 
-
+===================<h1>HTML3.2</h1>==================
+```
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Page Title</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
-
 <body>
     <h1>Welcome to My Website</h1>
     <p>This is a paragraph of text.</p>
@@ -30,15 +29,13 @@
 </body>
 
 </html>
-
-
-======================HTML3==========================
-id
-Specifies a unique identifier for an element.
-html
-Copy code
+```
+======================HTML3.2==========================
+<h2>id</h2>
+<p>Specifies a unique identifier for an element.</p>
+```
 <div id="unique-id">Content</div>
-class
+```
 
 Specifies one or more class names for an element.
 html
