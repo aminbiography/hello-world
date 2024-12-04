@@ -73,7 +73,7 @@ dir
 Specifies the text direction.
 html
 Copy code
-<p dir="rtl">مرحبا بالعالم</p>
+<p dir="rtl">abcdefghijklmnopqrstuvwxyz</p>
 contenteditable
 
 Indicates whether the content of an element is editable.
