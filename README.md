@@ -2,32 +2,101 @@
 ===================<h1>HTML3.2</h1>==================
 ```
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Page Title</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Algorithms</title>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a paragraph of text.</p>
 
-    <table border="1">
-        <tr>
-            <th>Header 1</th>
-            <th>Header 2</th>
-        </tr>
-        <tr>
-            <td>Data 1</td>
-            <td>Data 2</td>
-        </tr>
-    </table>
+<!-- 1. Simple HTML Structure -->
+<h1>Welcome to HTML Algorithms</h1>
+<p>This is a basic HTML structure example with a heading and a paragraph.</p>
 
-    <p>HTML 3.2 introduces more formatting options and tables.</p>
+<!-- 2. Creating a Table -->
+<h2>Example: Simple Table</h2>
+<table border="1">
+    <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+    </tr>
+    <tr>
+        <td>Row 1, Cell 1</td>
+        <td>Row 1, Cell 2</td>
+    </tr>
+    <tr>
+        <td>Row 2, Cell 1</td>
+        <td>Row 2, Cell 2</td>
+    </tr>
+</table>
 
-    <a href="https://www.example.com">Visit Example</a>
-    
+<!-- 3. Forms with Input Fields -->
+<h2>Example: Simple Form</h2>
+<form action="/submit" method="POST">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<!-- 4. Ordered List -->
+<h2>Example: Ordered List</h2>
+<ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ol>
+
+<!-- 5. Unordered List -->
+<h2>Example: Unordered List</h2>
+<ul>
+    <li>Item A</li>
+    <li>Item B</li>
+    <li>Item C</li>
+</ul>
+
+<!-- 6. Image Insertion -->
+<h2>Example: Inserting an Image</h2>
+<img src="https://via.placeholder.com/150" alt="Placeholder Image">
+
+<!-- 7. Anchor Link -->
+<h2>Example: Anchor Link</h2>
+<a href="https://www.example.com" target="_blank">Go to Example.com</a>
+
+<!-- 8. HTML Comments -->
+<h2>Example: HTML Comment</h2>
+<!-- This is a comment in HTML -->
+<p>This is visible text.</p>
+
+<!-- 9. Div and Span Elements -->
+<h2>Example: Div and Span</h2>
+<div>
+    <p>This paragraph is inside a div element.</p>
+</div>
+<span>This is a span element.</span>
+
+<!-- 10. Embedding a Video -->
+<h2>Example: Embedding a Video</h2>
+<video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<!-- 11. Input with Checkbox -->
+<h2>Example: Checkbox Input</h2>
+<form>
+    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+    <label for="subscribe">Subscribe to Newsletter</label><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<!-- 12. Button Element -->
+<h2>Example: Button</h2>
+<button onclick="alert('Button Clicked!')">Click Me</button>
+
 </body>
-
 </html>
 ```
 ======================HTML3.2==========================
