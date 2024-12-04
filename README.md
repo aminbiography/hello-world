@@ -1,5 +1,5 @@
 
-===================<h1>HTML3.2</h1>==================
+===================<h1>HTML Algorithms, Structures, & Examples</h1>==================
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -99,225 +99,142 @@
 </body>
 </html>
 ```
-======================HTML3.2==========================
-<h2>id</h2>
-<p>Specifies a unique identifier for an element.</p>
 
+==========================<h1>HTML Attributes & Elements</h1>===============================
 ```
-<div id="unique-id">Content</div>
-```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Attributes</title>
+</head>
+<body>
 
-<h2>class</h2>
-Specifies one or more class names for an element.
+<!-- 1. class Attribute -->
+<h1 class="header">HTML Attributes Example</h1>
+<p class="description">The "class" attribute is used to define CSS classes for styling HTML elements.</p>
 
-```
-<div class="my-class another-class">Content</div>
-```
+<!-- 2. id Attribute -->
+<p id="para1">This is a paragraph with an "id" attribute.</p>
+<p id="para2">Another paragraph with a different "id" attribute.</p>
 
-<h2Inline CSS styles for an element.
-html
-```<div style="color: red; font-size: 20px;">Styled Content</div>
-title
-<br>
-Specifies extra information about an element (tooltip).
-html
-Copy code
-<button title="Click here to submit">Submit</button>
-hidden
-<br>
-Indicates that an element is not visible.
-html
-Copy code
-<div hidden>Content</div>
-lang
-<br>
-Specifies the language of the element's content.
-html
-Copy code
-<p lang="en">Hello, world!</p>
-dir
-<br>
-Specifies the text direction.
-html
-Copy code
-<p dir="rtl">abcdefghijklmnopqrstuvwxyz</p>
-contenteditable
-<br>
-Indicates whether the content of an element is editable.
-html
-Copy code
-<div contenteditable="true">Editable content</div>
-spellcheck
-<br>
-Specifies whether the content should be checked for spelling errors.
-html
-Copy code
-<textarea spellcheck="true"></textarea>
-tabindex
-<br>
-Specifies the order in which elements should be focused when navigating with the Tab key.
-html
-Copy code
-<input tabindex="1" />
-<input tabindex="2" />
-action
-<br>
-Specifies the URL to which form data will be sent.
-html
-Copy code
-<form action="submit.php">
-  <input type="text" name="username">
-</form>
-method
-<br>
-Defines the HTTP method for form submission.
-html
-Copy code
-<form method="POST" action="submit.php">
-  <input type="text" name="username">
-</form>
-enctype
-<br>
-Specifies the encoding type for form data.
-html
-Copy code
-<form enctype="multipart/form-data">
-  <input type="file" name="file">
-</form>
-autocomplete
-<br>
-Specifies whether the browser should enable auto-completion.
-html
-Copy code
-<input type="text" autocomplete="on">
-type
-<br>
-Specifies the type of an input element.
-html
-Copy code
-<input type="text">
-<input type="password">
-<input type="submit">
-name
-<br>
-Specifies the name of an input element.
-html
-Copy code
-<input type="text" name="username">
-value
-<br>
-Specifies the value of an input element.
-html
-Copy code
-<input type="text" value="Default text">
-placeholder
-<br>
-Provides a hint for an input field.
-html
-Copy code
-<input type="text" placeholder="Enter your name">
-required
-<br>
-Specifies that an input field must be filled out before submitting the form.
-html
-Copy code
-<input type="text" required>
-src
-<br>
-Specifies the source URL for an embedded content like images or videos.
-html
-Copy code
-<img src="image.jpg" alt="Example Image">
-alt
-<br>
-Provides alternative text for an image.
-html
-Copy code
-<img src="image.jpg" alt="Example Image">
-href
-<br>
-Specifies the URL of the linked page.
-html
-Copy code
-<a href="https://www.example.com">Visit Example</a>
-target
-<br>
-Specifies where to open the linked document.
-html
-Copy code
+<!-- 3. src Attribute -->
+<img src="https://via.placeholder.com/150" alt="Placeholder Image" />
+<!-- The "src" attribute is used in <img> to specify the image source URL. -->
+
+<!-- 4. alt Attribute -->
+<img src="https://via.placeholder.com/150" alt="Placeholder Image" />
+<!-- The "alt" attribute provides alternative text for images in case they don't load. -->
+
+<!-- 5. href Attribute -->
+<a href="https://www.example.com">Go to Example.com</a>
+<!-- The "href" attribute specifies the URL of a link. -->
+
+<!-- 6. target Attribute -->
 <a href="https://www.example.com" target="_blank">Open in a new tab</a>
-rel
-<br>
-Specifies the relationship between the current document and the linked document.
-html
-Copy code
-<a href="https://www.example.com" rel="noopener noreferrer">Link</a>
-disabled
-<br>
-Specifies that an element is disabled.
-html
-Copy code
-<button disabled>Disabled Button</button>
-readonly
-<br>
-Specifies that an input field is read-only.
-html
-Copy code
-<input type="text" readonly>
-checked
-<br>
-Specifies that a checkbox or radio button is selected.
-html
-Copy code
-<input type="checkbox" checked>
-multiple
-<br>
-Specifies that multiple options can be selected.
-html
-Copy code
-<select multiple>
-  <option>Option 1</option>
-  <option>Option 2</option>
-</select>
-maxlength
-<br>
-Specifies the maximum number of characters allowed in an input field.
-html
-Copy code
-<input type="text" maxlength="10">
-min
-<br>
-Specifies the minimum value allowed for a number input.
-html
-Copy code
-<input type="number" min="1">
-max
-<br>
-Specifies the maximum value allowed for a number input.
-html
-Copy code
-<input type="number" max="100">
-step
-<br>
-Specifies the intervals for numeric inputs.
-html
-Copy code
-<input type="number" step="5">
-data-*
-<br>
-Custom data attributes to store extra information.
-html
-Copy code
-<div data-user-id="12345">User Info</div>
-aria-*
-<br>
-Accessibility attributes to enhance support for screen readers.
-html
-Copy code
-<button aria-label="Close">X</button>
-These attributes are essential for creating functional, accessible, and well-structured HTML documents.
-```
+<!-- The "target" attribute specifies where to open the linked document. "_blank" opens the link in a new tab. -->
 
+<!-- 7. title Attribute -->
+<a href="https://www.example.com" title="Visit Example">Hover over me</a>
+<!-- The "title" attribute provides additional information when the user hovers over an element. -->
+
+<!-- 8. type Attribute (Input Element) -->
+<form>
+    <input type="text" name="username" placeholder="Enter Username">
+    <input type="password" name="password" placeholder="Enter Password">
+</form>
+<!-- The "type" attribute specifies the type of input (text, password, etc.). -->
+
+<!-- 9. value Attribute -->
+<input type="button" value="Click Me">
+<!-- The "value" attribute specifies the initial value of an input element. -->
+
+<!-- 10. placeholder Attribute -->
+<input type="text" placeholder="Enter your name">
+<!-- The "placeholder" attribute provides a short hint in the input field before the user types. -->
+
+<!-- 11. disabled Attribute -->
+<button disabled>Disabled Button</button>
+<!-- The "disabled" attribute is used to disable user interaction with form elements or buttons. -->
+
+<!-- 12. readonly Attribute -->
+<input type="text" value="This is readonly" readonly>
+<!-- The "readonly" attribute makes an input field read-only, meaning the user cannot modify it. -->
+
+<!-- 13. checked Attribute (Checkbox or Radio Button) -->
+<input type="checkbox" checked> I agree to the terms and conditions
+<!-- The "checked" attribute specifies that the checkbox is pre-selected when the page loads. -->
+
+<!-- 14. name Attribute -->
+<form action="/submit" method="POST">
+    <input type="text" name="username" placeholder="Enter Username">
+    <input type="password" name="password" placeholder="Enter Password">
+</form>
+<!-- The "name" attribute is used to name form elements, and is essential when submitting form data. -->
+
+<!-- 15. style Attribute -->
+<p style="color: blue; font-size: 20px;">This paragraph is styled with the "style" attribute.</p>
+<!-- The "style" attribute is used to apply inline CSS styles to an element. -->
+
+<!-- 16. lang Attribute -->
+<p lang="en">This is a paragraph with a "lang" attribute specifying English.</p>
+<!-- The "lang" attribute specifies the language of the content in an element. -->
+
+<!-- 17. action Attribute (Form) -->
+<form action="/submit" method="POST">
+    <input type="submit" value="Submit">
+</form>
+<!-- The "action" attribute defines the URL where form data is submitted. -->
+
+<!-- 18. method Attribute (Form) -->
+<form action="/submit" method="POST">
+    <input type="submit" value="Submit">
+</form>
+<!-- The "method" attribute specifies the HTTP method (GET, POST) to be used when submitting the form. -->
+
+<!-- 19. for Attribute (Label) -->
+<label for="username">Username:</label>
+<input type="text" id="username" name="username">
+<!-- The "for" attribute associates a label with an input element, improving accessibility. -->
+
+<!-- 20. autocomplete Attribute -->
+<form autocomplete="on">
+    <input type="text" name="email" placeholder="Enter your email">
+    <input type="password" name="password" placeholder="Enter your password">
+</form>
+<!-- The "autocomplete" attribute specifies whether form data should be auto-completed by the browser. -->
+
+<!-- 21. media Attribute (For External Resources) -->
+<link href="styles.css" rel="stylesheet" media="screen">
+<!-- The "media" attribute specifies the type of device or media that the resource is intended for. -->
+
+<!-- 22. width and height Attributes -->
+<img src="https://via.placeholder.com/150" alt="Placeholder Image" width="150" height="150">
+<!-- The "width" and "height" attributes specify the size of an image. -->
+
+<!-- 23. colspan and rowspan Attributes (Table) -->
+<table border="1">
+    <tr>
+        <th colspan="2">Header 1 and Header 2</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Row 1, Column 1</td>
+        <td>Row 1, Column 2</td>
+    </tr>
+    <tr>
+        <td>Row 2, Column 2</td>
+    </tr>
+</table>
+<!-- The "colspan" and "rowspan" attributes are used to merge cells in a table. -->
+
+<!-- 24. data-* Attributes (Custom Data Attributes) -->
+<p data-author="John Doe">This is a paragraph with a custom data attribute.</p>
+<!-- The "data-*" attributes allow you to store custom data within an element. -->
+
+</body>
+</html>
+```
 
 
 
