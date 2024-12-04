@@ -38,12 +38,12 @@
 <div id="unique-id">Content</div>
 ```
 
-
+<h2>class</h2>
 Specifies one or more class names for an element.
-html
-Copy code
+
+```
 <div class="my-class another-class">Content</div>
-style
+```
 
 Inline CSS styles for an element.
 html
