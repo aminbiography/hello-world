@@ -247,14 +247,14 @@ html
 Copy code
 <button aria-label="Close">X</button>
 These attributes are essential for creating functional, accessible, and well-structured HTML documents.
-
+```
 
 
 
 
 ==========================CSS3===========================
 
-
+```
 <br>
 01.color
 Sets the color of text.
@@ -567,7 +567,7 @@ div {
   min-height: 100px;
 }
 These CSS properties are commonly used for styling and positioning elements on a webpage, providing control over layouts, visual effects, and interactivity.
-
+```
 
 
 
