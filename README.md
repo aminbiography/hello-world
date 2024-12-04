@@ -44,11 +44,10 @@ Specifies one or more class names for an element.
 ```
 <div class="my-class another-class">Content</div>
 ```
-<br>
-Inline CSS styles for an element.
+
+<h2Inline CSS styles for an element.
 html
-Copy code
-<div style="color: red; font-size: 20px;">Styled Content</div>
+```<div style="color: red; font-size: 20px;">Styled Content</div>
 title
 <br>
 Specifies extra information about an element (tooltip).
@@ -257,7 +256,7 @@ These attributes are essential for creating functional, accessible, and well-str
 
 
 <br>
-color
+01.color
 Sets the color of text.
 css
 Copy code
@@ -265,7 +264,7 @@ p {
   color: red;
 }
 <br>
-2. background-color
+02. background-color
 Sets the background color of an element.
 css
 Copy code
@@ -273,7 +272,7 @@ div {
   background-color: lightblue;
 }
 <br>
-3. font-size
+03. font-size
 Sets the size of the font.
 css
 Copy code
@@ -281,7 +280,7 @@ h1 {
   font-size: 24px;
 }
 <br>
-4. font-family
+04. font-family
 Specifies the font of the text.
 css
 Copy code
@@ -289,7 +288,7 @@ body {
   font-family: Arial, sans-serif;
 }
 <br>
-5. font-weight
+05. font-weight
 Sets the weight (boldness) of the font.
 css
 Copy code
@@ -297,7 +296,7 @@ h2 {
   font-weight: bold;
 }
 <br>
-6. text-align
+06. text-align
 Aligns the text inside an element.
 css
 Copy code
@@ -305,7 +304,7 @@ p {
   text-align: center;
 }
 <br>
-7. margin
+07. margin
 Sets the margin space outside of an element.
 css
 Copy code
@@ -313,7 +312,7 @@ div {
   margin: 20px;
 }
 <br>
-8. padding
+08. padding
 Sets the padding space inside an element.
 css
 Copy code
@@ -321,7 +320,7 @@ div {
   padding: 15px;
 }
 <br>
-9. border
+09. border
 Specifies the border style, width, and color of an element.
 css
 Copy code
